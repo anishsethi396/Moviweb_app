@@ -1,0 +1,139 @@
+[
+    {
+        "id": 1,
+        "name": "Alice",
+        "movies": [
+            {
+                "movie_id": 2,
+                "title": "Barbie",
+                "year": "2011",
+                "rating": "6.7",
+                "poster": "https://m.media-amazon.com/images/M/MV5BYmRhMTRmM2QtMzRlNC00MzJjLTljMzYtNmY0MzMzZmZlMmE0XkEyXkFqcGdeQXVyMjAzMjcxNTE@._V1_SX300.jpg"
+            },
+            {
+                "movie_id": 3,
+                "title": "Ghost Rider",
+                "year": "2007",
+                "rating": "5.3",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMzIyNDE5ODI1OV5BMl5BanBnXkFtZTcwNTIyNDE0MQ@@._V1_SX300.jpg"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Anish",
+        "movies": [
+            {
+                "movie_id": 6,
+                "title": "Mr Nobody",
+                "year": "2018",
+                "rating": "10",
+                "poster": "https://m.media-amazon.com/images/M/MV5BNjE1NzI0MjktMDQyMi00NTdhLThjMTItOTQyNjYxMTc2NjEyXkEyXkFqcGdeQXVyMTA2NzA0NDgw._V1_SX300.jpg",
+                "director": "Anish"
+            },
+            {
+                "movie_id": 7,
+                "title": "Titanic",
+                "director": "James Cameron",
+                "year": "1997",
+                "rating": "9.9",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg"
+            },
+            {
+                "movie_id": 8,
+                "title": "Inception",
+                "director": "Christopher Nolan",
+                "year": "2010",
+                "rating": "8.8",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg"
+            },
+            {
+                "movie_id": 9,
+                "title": "P.K",
+                "director": "Rajkumar Hirani",
+                "year": "2014",
+                "rating": "8.1",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMTYzOTE2NjkxN15BMl5BanBnXkFtZTgwMDgzMTg0MzE@._V1_SX300.jpg"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Arzoo",
+        "movies": [
+            {
+                "movie_id": 2,
+                "title": "Kabhi Khushi Kabhie Gham...",
+                "year": "2011",
+                "rating": "8",
+                "poster": "https://m.media-amazon.com/images/M/MV5BOTQ5Nzc3NzAtMzZlMS00ZWJjLWIxMGMtNDU4ZTQ1NmNjMjc5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+                "director": "ANish"
+            },
+            {
+                "movie_id": 3,
+                "title": "Hum Tum",
+                "director": "Kunal Kohli",
+                "year": "2004",
+                "rating": "7.8",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMjhkMTdjMTEtZWFkOC00OWQ4LWI4ODYtYjFlYTVlOTk3OTU2XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"
+            },
+            {
+                "movie_id": 4,
+                "title": "Don",
+                "director": "Farhan Akhtar",
+                "year": "2006",
+                "rating": "7.1",
+                "poster": "https://m.media-amazon.com/images/M/MV5BMzAyMWE0MjgtMDVjNS00ZDMyLWE4NjQtNWU2ZDgyYTlmMjdjXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX300.jpg"
+            }
+        ],
+        "movie": [
+            {
+                "movie_id": 1,
+                "title": "Add movies here: "
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Drake",
+        "movies": [
+            {
+                "movie_id": 2,
+                "title": "Eminem Featuring Rihanna: Love the Way You Lie",
+                "year": "2010",
+                "rating": "8.0",
+                "poster": "https://m.media-amazon.com/images/M/MV5BZDQyMjM1ZGYtYzBkYy00ZGNiLThmNDAtOTg0ZTJkZDUzOTQ5XkEyXkFqcGdeQXVyNTQ5MTQ2MTI@._V1_SX300.jpg"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Builder",
+        "movies": [
+            {
+                "movie_id": 3,
+                "title": "Bob",
+                "year": "1992\u20131993",
+                "rating": "7.3",
+                "poster": "https://m.media-amazon.com/images/M/MV5BNTk3NDQxNzU3OF5BMl5BanBnXkFtZTgwMzM3NjU5MTE@._V1_SX300.jpg"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Rahul",
+        "movies": [
+            {
+                "movie_id": 1,
+                "title": "Add movies here: "
+            },
+            {
+                "movie_id": 2,
+                "title": "The Avengers",
+                "year": "2012",
+                "rating": "8.0",
+                "poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+            }
+        ]
+    }
+]

@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block title %}
+Update Movie
+{% endblock %}
+
+{% block content %}
+  <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form action="/users/update_movie/{{ user_id }}/{{ movie['movie_id'] }}" method="POST">
+                    <div class="mb-3">
+                        <label for="title" class="form-label">Movie Title</label>
+                        <input value="{{ movie['title'] }}" type="text" class="form-control" id="title" name="title" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="director" class="form-label">Director</label>
+                        <input value="{{ movie['director'] }}" type="text" class="form-control" id="director" name="director">
+                    </div>
+                    <div class="mb-3">
+                        <label for="year" class="form-label">Year</label>
+                        <input value="{{ movie['year'] }}" type="number" class="form-control" id="year" name="year" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="rating" class="form-label">Rating</label>
+                        <input value="{{ movie['rating'] }}" type="number" class="form-control" id="rating" name="rating" step=".1" min="0" max="10"
+                            required>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}

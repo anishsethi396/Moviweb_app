@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}
+Update User's name
+{% endblock %}
+
+{% block content %}
+<form class="row gy-2 gx-3 align-items-center" action="/users/update_users/{{ user_id }}" method="POST">
+    <div class="col-auto">
+        <label class="visually-hidden" for="input_text">Name</label>
+        <input type="text" class="form-control" id="input_text" name="name" placeholder="Enter new name">
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-light">Submit</button>
+    </div>
+</form>
+
+
+{% endblock %}
