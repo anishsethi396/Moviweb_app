@@ -9,13 +9,12 @@ class JSONDataManager(DataManagerInterface):
     def __init__(self, filename):
         """
         Initialize a new instance of the JSONDataManager class
-        :param filename:
         """
 
         self.filename = filename
 
     def get_all_users(self):
-        # Return all the users all users
+        # Return all the users.
         with open(self.filename) as fileobj:
             data = json.loads(fileobj.read())
             return data
@@ -163,12 +162,13 @@ class JSONDataManager(DataManagerInterface):
             print(f"{error}\n Check connections!")
             return None
 
-    def add_movie_for_user(self, user_id, movie_id, new_movie):
+    def add_movie_for_user(self, user_id, new_movie):
         """
         Add a new movie to the user's movie list.
         """
 
         all_users = self.get_all_users()
+        movie_id = self.generate_movie_id()
         for user in all_users:
             if user['id'] == user_id:
                 user['movies'].append({

@@ -4,7 +4,7 @@ Add Movie
 {% endblock %}
 
 {% block content %}
-<form class="row gy-2 gx-3 align-items-center mt-3" action="/users/add_movie/{{ user_id }}" method="POST">
+<form class="row gy-2 gx-3 align-items-center mt-3" action="{{ url_for('api.add_movie', user_id=user_id) }}" method="POST">
     <div class="col-auto">
         <label class="visually-hidden" for="input_text">Name</label>
         <input type="text" class="form-control" id="input_text" name="movie" placeholder="Enter a movie title">
